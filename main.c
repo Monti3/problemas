@@ -8,6 +8,7 @@ int main()
 {
 int x;
 printf("Ingrese un numero: ");
+scanf("%i", &x);
 
 //pido al usuario que ingrese un numero 
 buscaprimos(x);                         // ingreso ese nunmero a la funcion de buscaprimos
@@ -17,7 +18,7 @@ buscaprimos(x);                         // ingreso ese nunmero a la funcion de b
 int buscaprimos(int p)
 {
   int cdivisores = sacar_cantidad_de_divisores(p); // declaro esta variable como la cantidad de divisores de el numero
-  printf("%i es la cantidad de divisores", cdivisores); // muestro la cantidad de divisores del numero 
+printf("%i es la cantidad de divisores", cdivisores); // muestro la cantidad de divisores del numero 
 
   if (cdivisores == 2)
     {
