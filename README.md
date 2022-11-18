@@ -1,1 +1,1 @@
-En este repo voy a estar subiendo las resoluciones a dsitintos problemas de olimpiadas de informatica. En cada rama(excepto en esta) esta la resoulucion de un ejercicio y el ejercicio en cuestión.
+Algoritmo para saber si un numero es primo.(Un numero primo es aquel que tiene exactamente 2 divisores)
